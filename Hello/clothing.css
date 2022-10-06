@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(https://thearchitectsdiary.com/wp-content/uploads/2020/10/nikhil-Jain-feat.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.icon{
+    float: left;
+    width: 200px;
+}
+.logo{
+    color: #ff7200;
+    font-family:'Informal Roman';
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+}
+.logo span{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+}
+.menu{
+    width: 500px;
+    float: left;
+    height: 50px;
+    cursor:pointer;
+}
+.menu ul{
+    align-items: center;
+    justify-content: center;
+    float: left;
+    display: flex;
+}
+.menu ul li{
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(248, 238, 238);
+    font-family: Arial;
+    transition: 0.2s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    float: left;
+    display: flex;
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+.srch{
+    width: 200px;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;;
+    font-family: Arial;
+}
+.button{
+    font-family: Arial;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f3a565;
+    color:rgb(248, 238, 238);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ff7200;
+}
+.intro{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.intro .par{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(248, 238, 238);
+    margin: 50px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture{
+    width: 300px;
+    height: 350px;
+}
+.pictures img{
+    width:300px;
+    height: 350px;
+    padding:20px;
+    margin-left: 77px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 8px;
+    background: #f79f58;
+    color: white;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background: #ff7200;
+}
+.info{
+    color: white;
+    font-family:Arial;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-left: 80px;
+}
+.footer-container{
+    background: black;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-head{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer1 img{
+    width: 55px;
+    height: 55px;
+    float:left;
+    padding: 10px; 
+}
+.footer1 .address{
+    margin-top: 70px;
+    margin-left: -110px;
+}
+.footer1 .address-details{
+    margin-top: 100px;
+}
+.footer1 .phone{
+    margin-top: 140px;
+    margin-left: -322px;
+}
+.footer1 .phone-details{
+    margin-top: 170px;
+}
+.footer1 .email{
+    margin-top: 210px;
+    margin-left: -447px;
+}
+.footer1 .email-details{
+    margin-top: 240px;
+    transition: 0.3s ease-in-out;
+}
+.footer1 .email-details:hover{
+    color: rgb(207, 11, 11);
+}
+.footer1 .website{
+    margin-top: 280px;
+    margin-left: -684px;
+}
+.footer1 .website-details{
+    margin-top: 310px;
+    transition: 0.3s ease-in-out;
+}
+.footer1 .website-details:hover{
+    color: rgb(207, 11, 11);
+}
+.footer2-head{
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.footer2{
+    margin-top: 70px;
+}
+.footer2 ul li{
+    padding: 5px;
+    margin-left: -40px;
+    list-style: circle;   
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.3s ease-in-out
+}
+.footer2 ul li a:hover{
+    color: rgb(207, 11, 11);
+}
+.footer3-head{
+    margin-left: -130px;
+    margin-top: 220px;
+}
+.footer3{
+    margin-top: 270px;
+}
+.footer3 ul li{
+    padding: 5px;
+    margin-left: -90px;
+    list-style: circle;   
+}
+.footer3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.3s ease-in-out
+}
+.footer3 ul li a:hover{
+    color: rgb(207, 11, 11);
+}
+.footer4-head{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.icons{
+    display: flex;
+    margin-left: -90px;
+}
+.icons a{
+    margin-top: 90px;    
+}
+.icons a ion-icon{
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+.icons a ion-icon:hover{
+    color:rgb(207, 11, 11);
+}

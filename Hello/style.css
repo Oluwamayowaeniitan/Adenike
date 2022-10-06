@@ -1,0 +1,21 @@
+h1{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+h2{
+    color: brown;
+    text-align: left;
+}
+div{
+    color: white;
+    text-align: center;
+    background-color:blueviolet;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+}
